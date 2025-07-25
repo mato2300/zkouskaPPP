@@ -20,7 +20,7 @@ const Work = () => {
 
                 {/* Grid Item */}
 
-                <div style={{backgroundImage: `url(${NameAgeApp})`}}
+                <div style={{backgroundImage: `url(${TaskApp})`}}
                     className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto container-div">
 
                     {/* Hover Effects */}
