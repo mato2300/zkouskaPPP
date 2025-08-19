@@ -1,0 +1,30 @@
+import React from 'react';
+import RealWork from "../images/RealWork.png";
+import NameAgeApp from "../images/name-age-app.png";
+import TaskApp from "../images/task-app.png";
+import ProperityApp from "../images/properity-app.png"
+import SearchingMoviesApp from "../images/Searching-movies.app.png"
+import Image1 from "../images/image1.png"
+
+const Work = () => {
+  return (
+    <div name="documents" className="bg-blue-600 w-full min-h-screen text-gray-300">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+        <div className="pb-8">
+          <p className="text-4xl font-bold inline border-b-4 border-fuchsia-600 text-fuchsia-200">Dokuemnty ke stahnuti</p>
+        </div>
+
+        <a 
+          href="/documents/zkouska.odt" 
+          download 
+          className="text-lg underline hover:text-fuchsia-300 cursor-pointer"
+        >
+          Zkoušky z profesních kvalifikací
+        </a>
+       
+      </div>
+    </div>
+  );
+}
+
+export default Work;

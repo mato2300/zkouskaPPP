@@ -4,47 +4,49 @@ import NameAgeApp from "../images/name-age-app.png";
 import TaskApp from "../images/task-app.png";
 import ProperityApp from "../images/properity-app.png"
 import SearchingMoviesApp from "../images/Searching-movies.app.png"
-import InsuranceCalculatorApp from "../images/insurance-calculator-app.png"
+import Image1 from "../images/image1.png"
 
 const Work = () => {
   return (
-    <div name="work" className="bg-[#0a192f] w-full md:h-screen text-gray-300">
-        <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-            <div className="pb-8">
-                <p className="text-4xl font-bold inline border-b-4 border-fuchsia-600  text-fuchsia-200">Dokumenty</p>
-            </div>
-
-            {/* Container */}
-
-            <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-
-                {/* Grid Item */}
-
-                <div style={{backgroundImage: `url(${TaskApp})`}}
-                    className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto container-div">
-
-                    {/* Hover Effects */}
-
-                    <div className="opacity-0 group-hover:opacity-100">
-                        <span className="text-2xl font-bold text-white tracking-wider drop-shadow-lg shadow-black">
-                            Prihasky ke zkousce
-                        </span>
-                        <div className="pt-8 text-center">
-                            <a href="https://name-age-931l2or26-marosmichna.vercel.app">
-                                <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Nahled</button>
-                            </a>
-                            <a href="https://github.com/marosmichna/name-age-app">
-                                <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Stahnout</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            
+    <div name="work" className="bg-blue-500 w-full min-h-screen text-gray-300">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+        <div className="pb-8">
+          <p className="text-4xl font-bold inline border-b-4 border-fuchsia-600 text-fuchsia-200">Knihy</p>
         </div>
+
+        {/* Container */}
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+
+          {/* Grid Item */}
+          <div
+            style={{
+              backgroundImage: `url(${Image1})`,
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+            }}
+            className="relative group shadow-lg shadow-[#040c16] rounded-md flex justify-center items-center h-64"
+          >
+            {/* Tlačidlo sa objaví len na hover */}
+            <div className="absolute inset-0 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <a
+                href="https://www.grada.cz/poradenstvi-pro-pozustale-(2)-13427/?utm_source=google&utm_medium=cpc&utm_campaign=326_999_PMAX_ALL-
+                    PRODUCTS&utm_id=15989233195&gad_source=1&gad_campaignid=15994019258&gbraid=0AAAAADndr97ueFSh66-
+
+                    jbqy8eVHoe2Z76&gclid=CjwKCAjw49vEBhAVEiwADnMbbOB3SJL7kCMsgRhE4pE60QSNnjIALV5xAML04tZTcd0pjxAD7mW5aBoCUdkQAvD_BwE"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="text-center rounded-lg px-4 py-3 bg-white text-gray-700 font-bold text-lg">
+                  Web
+                </button>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Work
+export default Work;
