@@ -8,7 +8,7 @@ const Home = () => {
         {/* Container */}
         <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
             {/* <h1 className="text-4xl sm:text-7xl font-bold text-black"></h1> */}
-            <p className="text-black py-4 max-w-[900px] text-2xl"><span className='text-4xl'>P</span>rofesní kvalifikace Poradce/poradkyně pro pozůstalé je potvrzením, že daný pracovník disponuje
+            <p className="text-white py-4 max-w-[900px] text-2xl"><span className='text-4xl'>P</span>rofesní kvalifikace Poradce/poradkyně pro pozůstalé je potvrzením, že daný pracovník disponuje
 nejen určitými znalostmi, ale také dovednostmi a potřebnými osobnostními dispozicemi, aby mohl být
 pozůstalým efektivním zdrojem opory a pomoci.
             </p>
