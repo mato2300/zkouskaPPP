@@ -4,13 +4,13 @@ import {HiArrowNarrowRight} from "react-icons/hi";
 
 const Home = () => {
   return (
-    <div name="home" className="w-full h-screen bg-[#94bdf9]">
+    <div name="home" className="w-full h-screen bg-blue-600">
         {/* Container */}
         <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
-            <h1 className="text-4xl sm:text-7xl font-bold text-fuchsia-200">Poradce pro pozůstalé jako profesní kvalifikace</h1>
-            <p className="text-gray-800 py-4 max-w-[700px]">V zahraničí je poradenství pro pozůstalé již plně etablované. I v České republice se
-                situace pomalu, ale jistě mění a poradenství pro pozůstalé se postupně legitimizuje a
-                institucionalizuje.
+            {/* <h1 className="text-4xl sm:text-7xl font-bold text-black"></h1> */}
+            <p className="text-black py-4 max-w-[900px] text-2xl"><span className='text-4xl'>P</span>rofesní kvalifikace Poradce/poradkyně pro pozůstalé je potvrzením, že daný pracovník disponuje
+nejen určitými znalostmi, ale také dovednostmi a potřebnými osobnostními dispozicemi, aby mohl být
+pozůstalým efektivním zdrojem opory a pomoci.
             </p>
             <div>
                 <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#5f9df9] hover:border-[#5f9df9]">
