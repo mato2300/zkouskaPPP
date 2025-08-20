@@ -10,7 +10,7 @@ const Gallery = () => {
 
         <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-8">
           {/* Video 1 */}
-          <div className="aspect-w-16 aspect-h-9">
+          <div className="aspect-w-16 aspect-h-9">1
             <iframe
               className="w-full h-full rounded-md shadow-lg"
               src="https://www.youtube.com/embed/nas_g3FdlVg?si=m6j4YB1orQRsHsgM"

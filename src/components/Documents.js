@@ -21,6 +21,47 @@ const Work = () => {
         >
           Zkoušky z profesních kvalifikací
         </a>
+
+        <a 
+          href="/documents/poradceProPozůstalé.docx" 
+          download 
+          className="text-lg underline hover:text-fuchsia-300 cursor-pointer"
+        >
+          Poradce/poradkyně pro pozůstalé jako profesní kvalifikace
+        </a>
+
+        <a 
+          href="/documents/prihlaskaKeZkousce.doc" 
+          download 
+          className="text-lg underline hover:text-fuchsia-300 cursor-pointer"
+        >
+          Prihlaska ke zkousce
+        </a>
+
+        
+        <a 
+          href="/documents/dotazníkKeZkoušce.doc" 
+          download 
+          className="text-lg underline hover:text-fuchsia-300 cursor-pointer"
+        >
+          Dotazník k přihlášce ke zkoušce
+        </a>
+
+        <a 
+          href="/documents/hodnoticiStandart.pdf" 
+          download 
+          className="text-lg underline hover:text-fuchsia-300 cursor-pointer"
+        >
+          Hodnoticí standard
+        </a>
+
+        <a 
+          href="/documents/zákonOPohřebnictví.pdf" 
+          download 
+          className="text-lg underline hover:text-fuchsia-300 cursor-pointer"
+        >
+          Zakon o pohřebnictví
+        </a>
        
       </div>
     </div>
