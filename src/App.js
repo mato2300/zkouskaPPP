@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
 import Documents from "./components/Documents";
+import Gallery from "./components/Gallery";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Skills />
       <Work />
       <Documents />
+      <Gallery />
       <Contact />
     </div>
   );
