@@ -11,10 +11,10 @@ import Image4 from "../images/image4.png";
 
 const Work = () => {
   return (
-    <div name="work" className="bg-blue-500 w-full min-h-screen text-gray-300">
+    <div name="work" className="bg-blue-500 w-full min-h-screen text-white">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-fuchsia-600 text-fuchsia-200">Knihy</p>
+          <p className="text-4xl font-bold inline border-b-4 border-fuchsia-600">Knihy</p>
         </div>
 
         {/* Container */}

@@ -24,12 +24,12 @@ const Navbar = () => {
             <ul className="hidden md:flex">          
                 <li>
                     <Link  to="home" smooth={true} duration={500}>
-                        Domov
+                        Domů
                     </Link>
                 </li>
                 <li>
                     <Link  to="about" smooth={true} duration={500}>
-                        O nas
+                        O nás
                     </Link>
                 </li>
                 <li>

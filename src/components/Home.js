@@ -1,5 +1,6 @@
 import React from 'react';
 import {HiArrowNarrowRight} from "react-icons/hi";
+import { Link } from 'react-scroll';
 
 
 const Home = () => {
@@ -12,13 +13,32 @@ const Home = () => {
 nejen určitými znalostmi, ale také dovednostmi a potřebnými osobnostními dispozicemi, aby mohl být
 pozůstalým efektivním zdrojem opory a pomoci.
             </p>
+                    <div className='flex flex-col gap-4 p-4 bg-blue-500 rounded-md shadow-md'>
+        <a 
+          href="/documents/zkouska.odt" 
+          download 
+          className="text-lg underline hover:text-fuchsia-300 cursor-pointer"
+        >
+          Nejčastější otázky
+        </a>
+
+        <a 
+          href="/documents/poradceProPozůstalé.docx" 
+          download 
+          className="text-lg underline hover:text-fuchsia-300 cursor-pointer"
+        >
+          Poradce/poradkyně pro pozůstalé jako profesní kvalifikace
+        </a>
+        </div>
             <div>
-                <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#5f9df9] hover:border-[#5f9df9]">
-                    Vidiet zoznam kurzov 
-                    <span className="group-hover:rotate-90 duration-300">
-                        <HiArrowNarrowRight className="ml-3" />
-                    </span>
-                </button>
+                <Link to="skills" smooth={true} duration={500}>
+                    <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#5f9df9] hover:border-[#5f9df9]">
+                        Vidiet zoznam kurzov 
+                        <span className="group-hover:rotate-90 duration-300">
+                            <HiArrowNarrowRight className="ml-3" />
+                        </span>
+                    </button>
+                </Link>
             </div>
         </div>
 

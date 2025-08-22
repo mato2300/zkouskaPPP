@@ -8,27 +8,11 @@ import Image1 from "../images/image1.png"
 
 const Work = () => {
   return (
-    <div name="documents" className="bg-blue-600 w-full min-h-screen text-gray-300">
+    <div name="documents" className="bg-blue-600 w-full min-h-screen text-white">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-fuchsia-600 text-fuchsia-200">Dokuemnty ke stahnuti</p>
+          <p className="text-4xl font-bold inline border-b-4 border-fuchsia-600">Dokuemnty ke stahnuti</p>
         </div>
-
-        <a 
-          href="/documents/zkouska.odt" 
-          download 
-          className="text-lg underline hover:text-fuchsia-300 cursor-pointer"
-        >
-          Zkoušky z profesních kvalifikací
-        </a>
-
-        <a 
-          href="/documents/poradceProPozůstalé.docx" 
-          download 
-          className="text-lg underline hover:text-fuchsia-300 cursor-pointer"
-        >
-          Poradce/poradkyně pro pozůstalé jako profesní kvalifikace
-        </a>
 
         <a 
           href="/documents/prihlaskaKeZkousce.doc" 

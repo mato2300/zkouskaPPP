@@ -1,9 +1,9 @@
-import React from 'react'
+import { Mail, Phone, MapPinHouse } from 'lucide-react';
 
 const Contact = () => {
   return (
-    <div name="contact" className="w-full h-screen bg-[#0a192f] flex justify-center items-center p-4">
-        <form method="POST" action="https://getform.io/f/f1f89b36-954f-4614-9734-86a39968603d" className="flex flex-col max-w-[600px] w-full">
+    <div name="contact" className="w-full px-40 h-screen bg-blue-600 flex justify-center items-center p-4 flex-col text-white">
+        {/* <form method="POST" action="https://getform.io/f/f1f89b36-954f-4614-9734-86a39968603d" className="flex flex-col max-w-[600px] w-full">
             <div className="pb-6">
                 <p className="text-4xl font-bold inline border-b-4 border-fuchsia-600 text-fuchsia-200">Contact</p>
                 <p className="py-4 text-gray-300">// Submit the form below or shoot me an email</p>
@@ -12,7 +12,48 @@ const Contact = () => {
             <input className="my-4 p-2 bg-[#ccd6f6]" type="email" placeholder="Email" name="email" /> 
             <textarea className="p-2" name="message" rows="10" placeholder="Message"></textarea>
             <button className="text-white border-2 hover:bg-fuchsia-600 hover:border-fuchsia-600 px-4 py-3 my-8 mx-auto flex items-center">Podme spolupracovat</button>
-         </form>
+         </form> */}
+      <div className='flex flex-row  items-center justify-between w-full'>
+        <div className='w-72'>
+          <h1 className='text-2xl font-bold mb-4'>Kontakt</h1>
+          <p>Za přihlášení ke zkoušce se považuje odeslání přihlášky ke zkoušce autorizované osobě.</p>
+        </div>
+        <div className="flex flex-col items-center">
+          <Phone className="w-6 h-6 mb-2" />
+          <p className='mb-4'>Zavolejte nám</p>
+          <span className="text-sm">+420 123 456 789</span>
+          <span className="text-sm">+420 123 456 789</span>
+        </div>
+        <div className="flex flex-col items-center">
+          <Mail className="w-6 h-6 mb-2" />
+          <p className='mb-4'>Napište nám</p>
+          <span className="text-sm">info@example.com</span>
+          <span className="text-sm">info@example.com</span>
+        </div>
+      </div>
+      <div className='flex flex-row  items-center justify-between w-full mt-10'>
+        <div>
+          <h1 className='text-2xl font-bold mb-4'>Najdete nás</h1>
+          <p>Najdete nas ak to chcete opisat daj vediet co sem :-)</p>
+          <div className='flex flex-row items-center mt-10 shadow-2xl rounded-md bg-blue-500 p-4'>
+            <MapPinHouse className="w-6 h-6 mr-10" />
+            <div>
+              <p>Adresa</p>
+              <p>Namestie Jaromira Jagra 5547A, Olomouc 77900</p>
+            </div>
+          </div>
+        </div>
+        <div className="w-full max-w-[600px]">
+          <iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2563.836898096243!2d17.254370615923523!3d49.5922239793666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471224e68eaa0a9b%3A0x873a221373dbd25a!2zTmFtw6FzdMOhaSBadXJjw6Fob3Z5IDI2NCwgNzc5IDAwIE9sb21vdWMsIMWha3Jha2U!5e0!3m2!1ssk!2scz!4v1697455643195!5m2!1ssk!2scz"
+  width="100%"
+  height="300"
+  allowFullScreen=""
+  loading="lazy"
+  className="rounded-md shadow-lg border-2 border-white"
+/>
+        </div>
+      </div>
     </div>
   )
 }
