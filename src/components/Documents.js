@@ -36,7 +36,7 @@ const Work = () => {
           download 
           className="text-lg underline hover:text-fuchsia-300 cursor-pointer"
         >
-          Hodnoticí standard
+          Hodnoticí standart
         </a>
 
         <a 
