@@ -23,7 +23,7 @@ const Skills = () => {
             <div>
                 <p className="text-4xl font-bold inline border-b-4 border-fuchsia-600">Kurzy</p>
                 <p className="py-4">
-                  U zkoušky profesní kvalifikace ověřuje uchazeč před autorizovanou osobou, resp. autorizovanými osobami, zda disponuje požadovanými kompetencemi. Kde, kdy a jak je získal není pro účely zkoušky relevantní. Přesto může být užitečné absolvovat přípravné kurzy organizované  některými organizacemi, např. 
+                 U zkoušky profesní kvalifikace ověřuje uchazeče před autorizovanou osobou, resp. autorizovanými osobami, zda disponuje požadovanými kompetencemi. Kde, kdy a jak je získal, není pro účely relevantní, přesto může být užitečné absolvovat přípravné kurzy organizované některými organizacemi, např.
                 </p>
             </div>
             <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">

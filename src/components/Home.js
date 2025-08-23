@@ -15,19 +15,27 @@ pozůstalým efektivním zdrojem opory a pomoci.
             </p>
                     <div className='flex flex-col gap-4 p-4 bg-blue-500 rounded-md shadow-md'>
         <a 
-          href="/documents/zkouska.odt" 
+          href="/documents/PPP_Nejčastější dotazy.odt" 
           download 
-          className="text-lg underline hover:text-fuchsia-300 cursor-pointer"
+          className="text-lg underline hover:text-fuchsia-300 cursor-pointer text-white"
         >
-          Nejčastější otázky
+          Nejčastější dotazy
         </a>
 
         <a 
-          href="/documents/poradceProPozůstalé.docx" 
+          href="/documents/PPP_PoradceProPozůstalé.docx" 
           download 
-          className="text-lg underline hover:text-fuchsia-300 cursor-pointer"
+          className="text-lg underline hover:text-fuchsia-300 cursor-pointer text-white"
         >
-          Poradce/poradkyně pro pozůstalé jako profesní kvalifikace
+          Poradce pro pozůstalé
+        </a>
+
+        <a 
+          href="/documents/PPP_Kompetence.docx" 
+          download 
+          className="text-lg underline hover:text-fuchsia-300 cursor-pointer text-white"
+        >
+          Kompetence
         </a>
         </div>
             <div>

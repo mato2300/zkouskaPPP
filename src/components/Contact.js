@@ -17,6 +17,8 @@ const Contact = () => {
         <div className='w-72'>
           <h1 className='text-2xl font-bold mb-4'>Kontakt</h1>
           <p>Za přihlášení ke zkoušce se považuje odeslání přihlášky ke zkoušce autorizované osobě.</p>
+          <h1 className='text-2xl font-bold mb-4 mt-6'>Zkoušky se konají</h1>
+          <p>Centrum PRO, budova Zubní polikliniky, Opavská 3, 785 01 Šternberk  </p>
         </div>
         <div className="flex flex-col items-center">
           <Phone className="w-6 h-6 mb-2" />
