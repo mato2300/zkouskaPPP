@@ -41,7 +41,7 @@ const Contact = () => {
             <MapPinHouse className="w-6 h-6 mr-10" />
             <div>
               <p>Adresa</p>
-              <p>Namestie Jaromira Jagra 5547A, Olomouc 77900</p>
+              <p className='w-60'>Centrum PRO, budova Zubní polikliniky, Opavská 3, 785 01 Šternberk</p>
             </div>
           </div>
         </div>
