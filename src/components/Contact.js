@@ -46,14 +46,14 @@ const Contact = () => {
           </div>
         </div>
         <div className="w-full max-w-[600px]">
-          <iframe
-  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2563.836898096243!2d17.254370615923523!3d49.5922239793666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471224e68eaa0a9b%3A0x873a221373dbd25a!2zTmFtw6FzdMOhaSBadXJjw6Fob3Z5IDI2NCwgNzc5IDAwIE9sb21vdWMsIMWha3Jha2U!5e0!3m2!1ssk!2scz!4v1697455643195!5m2!1ssk!2scz"
-  width="100%"
-  height="300"
-  allowFullScreen=""
-  loading="lazy"
-  className="rounded-md shadow-lg border-2 border-white"
-/>
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2563.530267530205!2d17.297015115923805!3d49.7280502793754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4712271b1a60e1f7%3A0x84bb9a8db5b5e3a3!2sOpavsk%C3%A1%203%2C%20785%2001%20%C5%A0ternberk%2C%20%C4%8Cesko!5e0!3m2!1scs!2scz!4v1698236523451!5m2!1scs!2scz"
+    width="100%"
+    height="300"
+    allowFullScreen=""
+    loading="lazy"
+    className="rounded-md shadow-lg border-2 border-white"
+  />
         </div>
       </div>
     </div>
