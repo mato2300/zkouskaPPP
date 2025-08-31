@@ -161,7 +161,7 @@ const books = [
 
 const Work = () => {
   return (
-    <div name="work" className="bg-gradient-to-b from-blue-600 to-blue-800 w-full min-h-screen text-white py-16">
+    <div name="work" className="bg-blue-500 w-full min-h-screen text-white py-16">
       <div className="max-w-[1100px] mx-auto p-6 flex flex-col justify-center w-full h-full">
         <div className="pb-10">
           <p className="text-4xl font-bold inline border-b-4 border-fuchsia-500">
