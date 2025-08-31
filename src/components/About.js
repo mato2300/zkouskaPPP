@@ -41,12 +41,12 @@ poradenství pro pozůstalé v ČR a první autorizovanou osobou v této oblasti
 
   <p>
     Působila jako sociální pracovnice v rodinné poradně, krizový intervent, odborný garant a supervizor na linkách důvěry. 
-    Absolvovala výcviky v krizové intervenci a v PCA poradenství a terapii. 
+    Absolvovala výcviky v krizové intervenci <br></br> a v PCA poradenství a terapii. 
     Je frekventantkou výcviku v logoterapii a existenciální analýze.
   </p>
 
   <p>
-    Působila jako vysokoškolská učitelka, přednášela na katedře sociologie, andragogiky a kulturní antropologie Filozofické fakulty Univerzity Palackého v Olomouci. 
+    Působila jako vysokoškolská učitelka, přednášela na katedře sociologie, andragogiky a kulturní antropologie Filozofické fakulty Univerzity Palackého <br></br> v Olomouci. 
     Je garantem studijního oboru Edukační péče o seniory na Slezské univerzitě v Opavě.
   </p>
 
@@ -59,7 +59,7 @@ poradenství pro pozůstalé v ČR a první autorizovanou osobou v této oblasti
     Je autorkou a spoluautorkou mnoha odborných publikací, například <br></br><i>Zármutek a pomoc pozůstalým</i>, <i>Poradenství pro pozůstalé</i>, <i>Krize a krizová intervence</i>, 
     <i>Krize jako psychologický a sociologický fenomén</i>, <i>Reminiscenční terapie</i>, <i>Domácí násilí</i>, <i>O posledních věcech člověka</i>, 
     <i>Zármutek dětí a pozůstalých</i>, <i>Náročné, krizové a mimořádné situace v kontextu rezidenčních služeb</i>, 
-    <i>Sexualita a intimita v závěru života</i> atd.
+    <i>Sexualita a intimita <br></br> v závěru života</i> atd.
   </p>
 
   <p>
@@ -86,13 +86,13 @@ autorizovanou osobou v této oblasti.
                         </p> */}
                         <div className="space-y-4">
   <p>
-    Vystudoval jednooborovou psychologii na Filozofické fakultě Univerzity Palackého v Olomouci. 
+    Vystudoval jednooborovou psychologii na Filozofické fakultě Univerzity Palackého <br></br> v Olomouci. 
     Absolvoval dlouhodobý psychoterapeutický výcvik v komunitě SUR.
   </p>
 
   <p>
     Od roku 1994 se pohyboval v oblasti sociální práce, pracoval jako kurátor pro mládež, probační a mediační úředník, 
-    vedoucí DONA Centra Bílého kruhu bezpečí v Ostravě – specializované poradny pro oběti domácího násilí.
+    vedoucí DONA Centra Bílého kruhu bezpečí <br></br> v Ostravě – specializované poradny pro oběti domácího násilí.
   </p>
 
   <p>
@@ -101,7 +101,7 @@ autorizovanou osobou v této oblasti.
   </p>
 
   <p>
-    V současné době pracuje jako psycholog ve zdravotnictví, působí v paliativním týmu Fakultní nemocnice v Olomouci a má také vlastní psychologickou praxi AARON v Olomouci.
+    V současné době pracuje jako psycholog ve zdravotnictví, působí v paliativním týmu Fakultní nemocnice v Olomouci a má také vlastní psychologickou praxi AARON <br></br> v Olomouci.
   </p>
 
   <p>

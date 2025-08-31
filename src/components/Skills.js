@@ -117,7 +117,7 @@ const Skills = () => {
   const courses = [
     {
       id: 1,
-      title: "3.října 2025",
+      title: "3. října 2025",
         date: (
     <span>
       <span className="font-bold">Místo konání:</span><br />
