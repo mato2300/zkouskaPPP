@@ -11,8 +11,8 @@ const Home = () => {
         <div className="max-w-[1100px] mx-auto px-8 flex flex-col justify-center h-full">
             {/* <h1 className="text-4xl sm:text-7xl font-bold text-black"></h1> */}
             <p className="text-white py-4 max-w-[1100px] text-2xl"><span className='text-4xl font-bold max-w-[1100px]'>Profesní kvalifikace Poradce/poradkyně pro pozůstalé</span> <br></br> je potvrzením, že daný pracovník disponuje
-nejen určitými znalostmi, ale také dovednostmi a potřebnými osobnostními dispozicemi, aby mohl být
-pozůstalým efektivním zdrojem opory a pomoci.
+nejen určitými znalostmi, ale také dovednostmi <br></br> a potřebnými osobnostními dispozicemi, aby mohl být
+pozůstalým efektivním zdrojem opory <br></br> a pomoci.
             </p>
       <div className='flex flex-row justify-between gap-4 p-4 mb-10'>
 <a 
