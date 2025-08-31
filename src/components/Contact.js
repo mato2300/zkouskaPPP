@@ -84,8 +84,6 @@ const Contact = () => {
       </div>
       <div className='flex flex-row  items-center justify-between w-full mt-10'>
         <div>
-          <h1 className='text-2xl font-bold mb-4'>Najdete nás</h1>
-          <p>Najdete nas ak to chcete opisat daj vediet co sem :-)</p>
           <div className='flex flex-row items-center mt-10 shadow-2xl rounded-md bg-blue-500 p-4'>
             <MapPinHouse className="w-6 h-6 mr-10" />
             <div>
