@@ -49,7 +49,7 @@ const Navbar = () => {
                 </li>
                 <li>
                     <Link  to="gallery" smooth={true} duration={500}>
-                        Galeria
+                        Galerie
                     </Link>
                 </li>
                 <li>

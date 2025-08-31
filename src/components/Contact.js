@@ -1,4 +1,14 @@
 import { Mail, Phone, MapPinHouse } from 'lucide-react';
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
+
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+
+import foto1 from "../images/1000005813.jpg";
+import foto2 from "../images/1000005814.jpg";
+import foto3 from "../images/1000005815.jpg";
 
 const Contact = () => {
   return (
@@ -20,11 +30,50 @@ const Contact = () => {
           <h1 className='text-2xl font-bold mb-4 mt-6'>Zkoušky se konají</h1>
           <p>Centrum PRO, budova Zubní polikliniky, Opavská 3, 785 01 Šternberk  </p>
         </div>
-        <div className="flex flex-col items-center">
+        {/* <div className="flex flex-col items-center">
           <Phone className="w-6 h-6 mb-2" />
           <p className='mb-4'>Zavolejte nám</p>
           <span className="text-sm">+420 123 456 789</span>
           <span className="text-sm">+420 123 456 789</span>
+        </div> */}
+        {/* <div className="flex flex-col items-center">
+          <img 
+            src={foto1} 
+            alt="Naši odborníci" 
+            className="w-full h-[200px] rounded-lg shadow-lg "
+          />
+        </div> */}
+                <div className="w-full max-w-[400px]">
+          <Swiper
+            modules={[Navigation, Pagination, Autoplay]}
+            navigation
+            pagination={{ clickable: true }}
+            autoplay={{ delay: 3000, disableOnInteraction: false }}
+            loop
+            className="rounded-lg shadow-lg"
+          >
+            <SwiperSlide>
+              <img
+                src={foto1}
+                alt="Naši odborníci 1"
+                className="w-full h-[200px] object-cover rounded-lg"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src={foto2}
+                alt="Naši odborníci 2"
+                className="w-full h-[200px] object-cover rounded-lg"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src={foto3}
+                alt="Naši odborníci 3"
+                className="w-full h-[200px] object-cover rounded-lg"
+              />
+            </SwiperSlide>
+          </Swiper>
         </div>
         <div className="flex flex-col items-center">
           <Mail className="w-6 h-6 mb-2" />
