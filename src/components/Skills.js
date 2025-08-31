@@ -117,22 +117,29 @@ const Skills = () => {
   const courses = [
     {
       id: 1,
-      title: "Kurz pokojného života",
-      date: "29. 8. 2025",
-      description: "Praktický kurz zaměřený na zvládání stresu a hledání rovnováhy."
+      title: "3.října 2025",
+        date: (
+    <span>
+      <span className="font-bold">Místo konání:</span><br />
+      Psychologická praxe AARON<br />
+      Opletalova ul. 8<br />
+      Olomouc
+    </span>
+  ),
+      // description: "Praktický kurz zaměřený na zvládání stresu a hledání rovnováhy."
     },
-    {
-      id: 2,
-      title: "Kurz komunikace v obtížných situacích",
-      date: "15. 9. 2025",
-      description: "Trénink dovedností potřebných pro citlivou a účinnou komunikaci."
-    },
-    {
-      id: 3,
-      title: "Kurz péče o pozůstalé",
-      date: "10. 10. 2025",
-      description: "Kurz zaměřený na podporu pozůstalých v krizových životních situacích."
-    }
+    // {
+    //   id: 2,
+    //   title: "Kurz komunikace v obtížných situacích",
+    //   date: "15. 9. 2025",
+    //   description: "Trénink dovedností potřebných pro citlivou a účinnou komunikaci."
+    // },
+    // {
+    //   id: 3,
+    //   title: "Kurz péče o pozůstalé",
+    //   date: "10. 10. 2025",
+    //   description: "Kurz zaměřený na podporu pozůstalých v krizových životních situacích."
+    // }
   ]
 
   return (
@@ -145,8 +152,7 @@ const Skills = () => {
             Kurzy
           </p>
           <p className="py-4">
-            U zkoušky profesní kvalifikace ověřuje uchazeče před autorizovanou osobou, resp. autorizovanými osobami, zda disponuje požadovanými kompetencemi. 
-            Kde, kdy a jak je získal, není pro účely relevantní, přesto může být užitečné absolvovat přípravné kurzy organizované některými organizacemi, např.
+            U zkoušky profesní kvalifikace ověřuje autorizovaná osoba, resp. autorizované osoby, zda zájemce disponuje požadovanými kompetencemi (viz tzv. Hodnoticí standard). Kdy, kde a jak je získal, není pro účeůy zkoušky relevantní, přesto může být užitečné absolvovat přípravné kurzy organizované některými organizacemi, např.
           </p>
         </div>
 
@@ -182,8 +188,8 @@ const Skills = () => {
 
         {/* Seznam kurzů */}
         <div className="mt-12">
-          <h2 className="text-2xl font-bold mb-2">Nabídka kurzů</h2>
-          <p className='mb-10'>Za přihlášení ke zkoušce se považuje odeslání přihlášky ke zkoušce autorizované osobě. Přihlášky zasílejte na: <span className='font-bold'>info@example.com</span></p>
+          <h2 className="text-2xl font-bold mb-2">Termíny zkoušek</h2>
+          <p className='mb-10'>Za přihlášení ke zkoušce se považuje odeslání přihlášky autorizované osobě. Přihlášky zasílejte na: <span className='font-bold'>info@example.com</span></p>
           <div className="grid md:grid-cols-2 gap-6">
             {courses.map((course) => (
               <div
@@ -192,7 +198,7 @@ const Skills = () => {
               >
                 <h3 className="text-xl font-semibold mb-2">{course.title}</h3>
                 <div className="flex items-center text-sm text-gray-700 mb-2">
-                  <Calendar className="w-4 h-4 mr-2" />
+                  {/* <Calendar className="w-4 h-4 mr-2" /> */}
                   {course.date}
                 </div>
                 <p className="text-gray-700 text-sm">{course.description}</p>

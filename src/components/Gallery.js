@@ -116,11 +116,11 @@ const videos = [
 
 const Gallery = () => {
   return (
-    <div name="gallery" className="bg-gradient-to-b from-blue-600 to-blue-800 w-full min-h-screen text-white py-16">
+    <div name="gallery" className="bg-blue-500 w-full min-h-screen text-white py-16">
       <div className="max-w-[1200px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         
         <div className="pb-10">
-          <p className="text-4xl font-bold inline border-b-4 border-fuchsia-500 text-fuchsia-200">
+          <p className="text-4xl font-bold inline border-b-4 border-fuchsia-500">
             Galérie
           </p>
         </div>

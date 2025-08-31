@@ -88,7 +88,12 @@ const Contact = () => {
             <MapPinHouse className="w-6 h-6 mr-10" />
             <div>
               <p>Adresa</p>
-              <p className='w-60'>Centrum PRO, budova Zubní polikliniky, Opavská 3, 785 01 Šternberk</p>
+              <div className="w-60 flex flex-col">
+  <span>Centrum PRO</span>
+  <span>budova Zubní polikliniky</span>
+  <span>Opavská 3</span>
+  <span>785 01 Šternberk</span>
+</div>
             </div>
           </div>
         </div>
