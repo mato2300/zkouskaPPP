@@ -145,7 +145,7 @@ const Skills = () => {
   return (
     <div id='skills' name="skills" className="w-full min-h-screen bg-blue-600 text-white py-12">
       {/* Container */}
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+      <div className="max-w-[1100px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         
         <div>
           <p className="text-4xl font-bold inline border-b-4 border-fuchsia-600">
@@ -189,7 +189,7 @@ const Skills = () => {
         {/* Seznam kurzů */}
         <div className="mt-12">
           <h2 className="text-2xl font-bold mb-2">Termíny zkoušek</h2>
-          <p className='mb-10'>Za přihlášení ke zkoušce se považuje odeslání přihlášky autorizované osobě. Přihlášky zasílejte na: <span className='font-bold'>info@example.com</span></p>
+          <p className='mb-10'>Za přihlášení ke zkoušce se považuje odeslání přihlášky autorizované osobě. Přihlášky zasílejte na: <span className='font-bold'>zkouska.poradceppp@seznam.cz</span></p>
           <div className="grid md:grid-cols-2 gap-6">
             {courses.map((course) => (
               <div

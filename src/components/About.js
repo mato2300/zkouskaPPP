@@ -85,29 +85,28 @@ násilí, O posledních věcech člověka apod. Disponuje profesní kvalifikací
 autorizovanou osobou v této oblasti.
                         </p> */}
                         <div className="space-y-4">
-  <p>
-    Vystudoval jednooborovou psychologii na Filozofické fakultě Univerzity Palackého <br></br> v Olomouci. 
-    Absolvoval dlouhodobý psychoterapeutický výcvik v komunitě SUR.
-  </p>
+<p>
+  Vystudoval speciální pedagogiku a jednooborovou psychologii na Univerzitě Palackého v Olomouci. <br></br>
+  Absolvoval psychoterapeutický výcvik v komunitě SUR.
+</p>
 
-  <p>
-    Od roku 1994 se pohyboval v oblasti sociální práce, pracoval jako kurátor pro mládež, probační a mediační úředník, 
-    vedoucí DONA Centra Bílého kruhu bezpečí <br></br> v Ostravě – specializované poradny pro oběti domácího násilí.
-  </p>
+<p>
+  Dlouhá léta se věnoval obětem domácího násilí, trestné činnosti a ohroženým dětem.
+</p>
 
-  <p>
-    Působil jako koordinátor pro problematiku domácího násilí Olomouckého kraje <br></br> a psycholog intervenčního centra. 
-    Byl dlouhodobým jednatelem a poradcem regionální pobočky Bílého kruhu bezpečí v Olomouci, jež poskytuje pomoc obětem a svědkům trestné činnosti.
-  </p>
+<p>
+  Od roku 2016 pracuje ve zdravotnictví. Nejprve v Psychiatrické nemocnici <br></br>v Kroměříži a v mobilním hospici Nejste sami Olomouc, <br></br>
+  nyní v soukromé psychologické praxi a zároveň působí jako psycholog <br></br>v Podpůrném a paliativním týmu Fakultní nemocnice Olomouc.
+</p>
 
-  <p>
-    V současné době pracuje jako psycholog ve zdravotnictví, působí v paliativním týmu Fakultní nemocnice v Olomouci a má také vlastní psychologickou praxi AARON <br></br> v Olomouci.
-  </p>
+<p>
+  Je autorem a spoluautorem několika publikací, například <i>Domácí násilí. Kontext, dynamika a intervence</i>, 
+  <i>O posledních věcech člověka</i> a <i>Krizová intervence pro praxi</i>.
+</p>
 
-  <p>
-    Je autorem a spoluautorem řady publikací, například <i>Domácí násilí</i>, <i>O posledních věcech člověka</i> apod. 
-    Disponuje profesní kvalifikací Poradce pro pozůstalé a je autorizovanou osobou v této oblasti.
-  </p>
+<p>
+  Disponuje profesní kvalifikací Poradce pro pozůstalé a je autorizovanou osobou <br></br>v této oblasti.
+</p>
 </div>
                     </div>
                 </div>

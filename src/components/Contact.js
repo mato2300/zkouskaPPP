@@ -83,8 +83,7 @@ const Contact = () => {
         <div className="flex flex-col items-center">
           <Mail className="w-6 h-6 mb-2" />
           <p className='mb-4'>Napište nám</p>
-          <span className="text-sm">info@example.com</span>
-          <span className="text-sm">info@example.com</span>
+          <span className="text-sm">zkouska.poradceppp@seznam.cz</span>
         </div>
       </div>
       <div className='flex flex-row  items-center justify-between w-full mt-10'>
