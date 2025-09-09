@@ -9,6 +9,10 @@ import "swiper/css/pagination";
 import foto1 from "../images/1000005813.jpg";
 import foto2 from "../images/1000005814.jpg";
 import foto3 from "../images/1000005815.jpg";
+import foto4 from "../images/k1.jpg";
+import foto5 from "../images/k2.jpg";
+import foto6 from "../images/k3.jpg";
+import foto7 from "../images/k4.jpg";
 
 const Contact = () => {
   return (
@@ -60,21 +64,49 @@ const Contact = () => {
             <SwiperSlide>
               <img
                 src={foto1}
-                alt="Naši odborníci 1"
+                alt="Naše prostory"
                 className="w-full h-[200px] object-cover rounded-lg"
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
                 src={foto2}
-                alt="Naši odborníci 2"
+                alt="Naše prostory"
                 className="w-full h-[200px] object-cover rounded-lg"
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
                 src={foto3}
-                alt="Naši odborníci 3"
+                alt="Naše prostory"
+                className="w-full h-[200px] object-cover rounded-lg"
+              />
+            </SwiperSlide>
+            {/* <SwiperSlide>
+              <img
+                src={foto4}
+                alt="Naše prostory"
+                className="w-full h-[200px] object-contain rounded-lg"
+              />
+            </SwiperSlide> */}
+            <SwiperSlide>
+              <img
+                src={foto5}
+                alt="Naše prostory"
+                className="w-full h-[200px] object-cover rounded-lg"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src={foto6}
+                alt="Naše prostory"
+                className="w-full h-[200px] object-cover rounded-lg"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src={foto7}
+                alt="Naše prostory"
                 className="w-full h-[200px] object-cover rounded-lg"
               />
             </SwiperSlide>
