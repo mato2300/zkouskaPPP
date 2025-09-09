@@ -128,18 +128,19 @@ const Skills = () => {
   ),
       // description: "Praktický kurz zaměřený na zvládání stresu a hledání rovnováhy."
     },
-    // {
-    //   id: 2,
-    //   title: "Kurz komunikace v obtížných situacích",
-    //   date: "15. 9. 2025",
-    //   description: "Trénink dovedností potřebných pro citlivou a účinnou komunikaci."
-    // },
-    // {
-    //   id: 3,
-    //   title: "Kurz péče o pozůstalé",
-    //   date: "10. 10. 2025",
-    //   description: "Kurz zaměřený na podporu pozůstalých v krizových životních situacích."
-    // }
+    {
+      id: 2,
+      title: "12-14. prosince 2025",
+        date: (
+    <div>
+  <span class="font-bold">Místo konání:</span><br />
+  <div>Opavská 3</div>
+  <div>78501</div>
+  <div>Šternberk</div>
+</div>
+  ),
+      // description: "Praktický kurz zaměřený na zvládání stresu a hledání rovnováhy."
+    },
   ]
 
   return (
